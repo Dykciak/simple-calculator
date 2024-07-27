@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator app - js project</title>
+		<!-- Roboto fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- icon -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
+		<link rel="stylesheet" href="./dist/css/main_min.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="calculator">
+				<form>
+					<div class="display">
+						<input type="text" name="display" id="display" class="display-input" />
+					</div>
+					<div>
+						<input type="button" value="AC" class="clear" />
+						<input type="button" value="DE" class="delete" />
+						<input type="button" value="." class="dot" />
+						<input type="button" value="/" class="divide" />
+					</div>
+					<div>
+						<input type="button" value="7" class="seven" />
+						<input type="button" value="8" class="eight" />
+						<input type="button" value="9" class="nine" />
+						<input type="button" value="•" class="multiply" />
+					</div>
+					<div>
+						<input type="button" value="4" class="four" />
+						<input type="button" value="5" class="five" />
+						<input type="button" value="6" class="six" />
+						<input type="button" value="-" class="subtract" />
+					</div>
+					<div>
+						<input type="button" value="1" class="one" />
+						<input type="button" value="2" class="two" />
+						<input type="button" value="3" class="three" />
+						<input type="button" value="+" class="add" />
+					</div>
+					<div>
+						<input type="button" value="00" class="doubleZero" />
+						<input type="button" value="0" class="zero" />
+						<input type="button" value="=" class="equal" id="equal"/>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script src="./dist/js/main_min.js"></script>
+	</body>
+</html>
