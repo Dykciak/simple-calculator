@@ -39,9 +39,9 @@ body {
 				cursor: pointer;
 				color: black;
 				// border: 1px solid black;
-				transition: background-color 0.3s, border 0.3s;
+				transition: color 0.3s;
 				&:hover {
-					background-color: #555;
+					color: white;
 				}
 			}
 			.display {
